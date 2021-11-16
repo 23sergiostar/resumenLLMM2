@@ -1,0 +1,82 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: rgb(220, 0, 150);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: left;
+}
+
+h2{
+    color: rgb(85, 0, 85);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: left;
+}
+
+a{
+    color: purple;
+}
+
+a:hover{
+    color: seagreen;
+}
+
+div{
+    width: 450px;
+    height: 325px;
+    border: 5px;
+    border-radius: 5px;
+    background-color: rgb(252, 168, 170);
+}
+label{
+    background-color: rgb(0, 255, 38);
+}
+
+label:hover{
+    background-color: rgb(179, 0, 255);
+}
+
+input:focus{
+    background-color: rgb(194, 249, 250);
+}
+
+.submit{
+    color: blue;
+    background-color: rgb(212, 166, 255);
+}
+
+.divimagenlola{
+    width: 500px;
+    height: 500px;
+    border: 2px solid rgb(25, 0, 255);
+    border-radius: 5px;
+}
+
+#imagen-cambiante{
+    background-image: url(lola.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#imagen-cambiante:hover{
+    background-image: url(lola2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.imagenlola{
+    color: rgb(248, 192, 239);
+    text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
+    text-align: center;
+    padding-top: 420px;
+}
+
+
+

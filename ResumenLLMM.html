@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8">
+    <title>Resumen de etiquetas HTML </title>
+    <link rel="stylesheet" href="estiloResumen.css">
+</head>
+<body>
+    <h1> Listas ordenadas </h1>
+        <ol>
+            <li> Sergio </li>
+            <li> Ruth </li>
+        </ol>
+    <h1> Listas desordenadas </h1>
+        <ul>
+            <li>Star</li>
+            <li><a href="link a pagina HTML"> Soy un link </a></li>
+        </ul>
+    <div>
+        <h2>Formulario (Casi completo)</h2>
+        <form method="GET" action="link a PHP">
+            <label for="nombre">Introduce un nombre y </label><label for="psw">contraseña:</label><br>
+            <input type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre">
+            <input type="password" name="psw" id="psw" placeholder="Introduce tu contraseña"><br>
+            <label for="email">Introduce un mail:</label><br>
+            <input type="email" name="email" id="email" placeholder="Introduce tu email"><br>
+            <label for="number">Especifica tu edad:</label><br>
+            <input type="number" name="number" id="number" placeholder="Introduce tu edad"><br><br>
+            <input type="radio" name="radio" id="radio" value="Radio">Radio</input>
+            <input type="checkbox" name="checkbox" id="checkbox" value="Checkbox">Checkbox</input><br><br>
+            <input type="date" name="date" id="date"><br>
+            <input type="file" name="file" id="file"><br>
+            <input type="button" name="button" id="button" value="Boton">
+            <input type="submit" name="submit" id="submit" class="submit" value="Submit">
+            <input type="reset" name="reset" id="reset" value="Reset"><br>
+
+                <select name="edades" id="edades">
+                    <option value="Selecciona una opcion">Selecciona una opcion</option>
+                    <option value="17">17</option>
+                </select>
+            
+        </form>
+    </div>
+
+
+        <br><br>
+        <table border="2px">
+            <tr>
+                <td colspan="3">Colspan Añadido</td>
+            </tr>
+            <tr>
+                <td>Archivo</td>
+                <td>Archivo1</td>
+                <th>Header</th>
+            </tr>
+            <tr>
+                <td>Archivo3</td>
+                <td>Archivo4</td>
+                <th>Header2</th>
+            </tr>
+        </table>
+        <br>
+
+        <div id="imagen-cambiante" class="divimagenlola">
+            <h1 class="imagenlola"> Lola indigo</h1>
+        </div>
+
+</body>
+</html>
